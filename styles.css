@@ -1,0 +1,37 @@
+html {
+    min-height: 100%;
+}
+
+
+body {
+    /* height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background: linear-gradient(#4facd1,rgb(94, 32, 32)) fixed;
+}
+
+#main {
+    width: 50vw;
+    margin-left: 25%;
+    height: 400px;
+    background: linear-gradient(#3B5058,rgb(94, 32, 32));
+    color: white;
+    text-align: center;
+}
+#main h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+}
+#main p {
+    font-size: 30px;
+}
+#main form {
+    font-size: 25px;
+}
+#main form button {
+    background-color: #4facd1;
+    border: none;
+    font-size: 20px;
+}

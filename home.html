@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Number Guessing Time!</h1>
+      <p>
+        Please enter a low number and a high number in the appropriate range
+        (1-100)
+      </p>
+      <form name="guessForm" onsubmit="submitData(); return false;">
+        Bottom of Range: <input type="text" name="min" /> Top of Range:
+        <input type="text" name="max" />
+        <button type="submit">Play Game!</button>
+      </form>
+      <p id="pTag"></p>
+    </div>
+  </body>
+</html>
